@@ -185,6 +185,7 @@ public static boolean newnum(String prueba){
         jLabel7.setText(area);
         jLabel8.setText(perimetro);
         jLabel9.setText("");
+        jLabel10.setText("");
         }else{
             jLabel10.setText("Ingrese un número sin letras");
         }
@@ -214,6 +215,7 @@ public static boolean newnum(String prueba){
         jLabel7.setText(area);
         jLabel8.setText(perimetro);
         jLabel9.setText(volumen);
+        jLabel10.setText("");
         }else{
             jLabel10.setText("Ingrese un número sin letras");
         }
@@ -224,11 +226,7 @@ public static boolean newnum(String prueba){
      * @param args the command line arguments
      */
     public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-         */
+ 
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
                 if ("Nimbus".equals(info.getName())) {
